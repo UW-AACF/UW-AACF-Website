@@ -1,5 +1,14 @@
-import * as React from "react"
+import React from 'react'
 
-export default function Home() {
-  return <div>Hello world! test2</div>
+import Layout from '../components/layout'
+import Head from '../components/head'
+
+function Index() {
+  return (
+    <Layout>
+      <Head title="Home" />
+    </Layout>
+  )
 }
+
+export default Index;
