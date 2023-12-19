@@ -4,7 +4,7 @@ import Footer from '../components/footer'
 // import Header from '../components/header'
 import '../styles/index.scss'
 
-import * as layoutStyles from './layout.module.scss';
+import * as layoutStyles from '../images/layout.module.scss';
 
 function Layout(props) {
   return (
