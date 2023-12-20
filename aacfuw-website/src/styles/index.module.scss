@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.centerContainer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.bigText {
+    font-size: 100px;
+    // change font color to white
+    color: rgb(255, 255, 255);
+    font-family: 'Kaushan Script';
+}
+
+.smallText {
+    font-size: 30px;
+    // change font color to white
+    line-height: 0.1;
+    color: rgb(255, 255, 255);
+    font-family: 'Have Heart One';
+}
+
+
+.learnMoreButton {
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    background-color: #D9D9D9;
+    // box-shadow: 0px 4px 4px rgba(228, 226, 226, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+  .learnMoreButton:hover {
+    transform: scale(1.01);
+    opacity: 0.7;
+  }
