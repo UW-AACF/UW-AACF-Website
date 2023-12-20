@@ -18,9 +18,10 @@ function Index() {
         <Button href="/about" variant="outline-secondary" className={styles.learnMoreButton}>Learn More</Button>
       </Container>
 
-      <Container fluid className={styles.backgroundContainer}>
+      {/* There is no backgroundContainer style yet */}
+      {/* <Container fluid className={styles.backgroundContainer}>
 
-      </Container>
+      </Container> */}
     </Layout>
   );
 }
