@@ -1,0 +1,67 @@
+.media {
+  margin-bottom: 2rem;
+  min-height: 80vh;
+  align-items: center;
+  display: flex; 
+  color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .gif {
+      height: 50vh;
+  }
+
+}
+
+@media screen and (max-width: 768px ){
+  .gif {
+      display: none;
+  }
+  .media {
+      min-height: 50vh;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+
+}
+
+.details {
+  h3 {
+      margin-bottom: .5rem;
+      text-transform: uppercase;
+      font-family: 'Oswald';
+      font-weight: 500;
+      font-size: 2rem;
+      letter-spacing: 1.5px;
+  }
+
+}
+.button {
+  font-family: "Oswald";
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.info {
+  margin-top: 2rem;
+  color: black;
+  h1 {
+      font-family: 'Oswald';
+      font-weight: 700;
+      font-size: 2.5rem;
+      letter-spacing: 1rem;
+      @media screen and (max-width: 768px) {
+          letter-spacing: .3rem;
+      }
+  }
+
+  p {
+      font-family: 'Roboto';
+      font-size: 1rem;
+      letter-spacing: 1.2px;
+  }
+}
