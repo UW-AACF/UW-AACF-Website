@@ -52,5 +52,11 @@ module.exports = {
       }
     }    
   ],
+  siteMetadata: {
+    title: 'AACF UW',
+    footer1: 'Made with God`s ❤️ by AACF UW',
+    footer2: 'Copyright © 2024, Asian American Christian Fellowship at University of Washington - Seattle Campus'
+    //social media, emails, etc.
+  }
   
 }
