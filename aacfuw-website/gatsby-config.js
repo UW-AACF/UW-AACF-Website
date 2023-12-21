@@ -10,6 +10,10 @@
 module.exports = {
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-transformer-remark',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -22,6 +26,31 @@ module.exports = {
         icon: `src/images/logo.png`
       }
     },
+    {
+      resolve: 'gatsby-source-filesystem', /* source content from our md files */
+      options: {
+          name: 'src',
+          path: `${__dirname}/src/`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem', /* source content from our img files */
+      options: {
+          name: 'images',
+          path: `${__dirname}/src/images/`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+           `Roboto`,
+           `Lato`,
+           `Oswald\:200,300,400,400i,500,600,700`
+        ],
+        display: 'swap'
+      }
+    }    
   ],
   
 }

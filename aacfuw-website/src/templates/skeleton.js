@@ -5,7 +5,7 @@
 // import Layout from '../components/layout'
 
 // import Head from '../components/head'
-// import Img from 'gatsby-image'
+// // import Img from 'gatsby-image'
 
 // import Col from 'react-bootstrap/Col'
 // import Row from 'react-bootstrap/Row'
@@ -14,8 +14,7 @@
 // import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 // import Tooltip from 'react-bootstrap/Tooltip'
 
-// // import Img from 'gatsby-image'
-// import Hero from '../components/hero'
+// // import Hero from '../components/hero'
 
 // // import eventsStyles from './events.module.scss'
 // import * as skeletonStyles from './skeleton.module.scss'
@@ -32,13 +31,6 @@
 //                 title
 //                 link
 //                 button
-//                 img {
-//                     childImageSharp {
-//                         fluid(maxWidth: 1920, quality: 80 ) {
-//                             ...GatsbyImageSharpFluid
-//                         }
-//                     }
-//                 }
 //             }
 //             html
 //             fields {
