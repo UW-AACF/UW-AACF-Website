@@ -18,6 +18,7 @@ function Header() {
         backgroundColor: "white",
         height: "10%",
       }}
+      id="myNavbar"
     >
       <Navbar.Brand className={headerStyles.navbarBrand} >
         <Link to="/">

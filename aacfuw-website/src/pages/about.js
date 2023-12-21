@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container'
 
@@ -7,7 +7,15 @@ import Head from '../components/head';
 import * as aboutStyles from './about.module.scss'
 
 
-export default function about() {
+export default function About() {
+
+  useEffect(() => {
+    const myNavbar = document.getElementById("myNavbar");
+    const navbarHeight = myNavbar.offsetHeight;
+
+    document.documentElement.style.setProperty('--navbar-height', `${navbarHeight}px`);
+  }, []);
+
   return (
     <Layout>
       <Head title="About Us"/>

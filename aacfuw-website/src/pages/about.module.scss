@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
+:root {
+    --navbar-height: 50px; // Default height, replace with your default height
+  }
+
+.navbar {
+    height: var(--navbar-height);
+    // other navbar styles
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +34,7 @@ body {
     font-weight: 700;
     font-size: 3.5rem;
     letter-spacing: .2rem;
-    color: rgb(223, 223, 223);
+    // color: rgb(223, 223, 223);
 }
 
 .paragraphText {
@@ -34,7 +43,7 @@ body {
     letter-spacing: 1px;
     line-height: 1.25;
     max-width: 800px;
-    color: rgb(223, 223, 223);
+    // color: rgb(223, 223, 223);
 }
 
 .aboutUsTitle {
@@ -52,13 +61,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - var(--navbar-height));
 }
 
 .aboutPageBackgroundOverlay {
@@ -66,7 +74,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 110.7vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
