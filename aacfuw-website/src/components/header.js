@@ -44,6 +44,7 @@ function Header() {
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/winter-retreat">Winter Retreat</NavDropdown.Item>
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/senior-sendoff">Senior Sendoff</NavDropdown.Item>
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/united">AACF United</NavDropdown.Item>
+            <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/summer-retreat">Intramurals</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link className={headerStyles.navLink} as={Link} to="/outreach">OUTREACH</Nav.Link>
           <Nav.Link className={headerStyles.navLink} as={Link} to="/churches">CHURCHES</Nav.Link>

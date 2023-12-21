@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Kaushan+Script&display=swap');
 
 
 body {
@@ -17,6 +16,23 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    // background-image: url('../images/logo_transparent.png');
+    // // Make the image a little more transparent
+    // opacity: 0.7;
+    // height: 110vh;
+    // background-position: center;
+    // margin-right: 50px;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+}
+
+.backgroundImage {
+    opacity: 0.7;
+    height: 110vh;
+    background-position: center;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bigText {
@@ -43,12 +59,14 @@ body {
 
 .learnMoreButton {
     font-family: 'Montserrat', sans-serif;
+    color: black;
     width: 150px;
     background-color: #D9D9D9;
-    // box-shadow: 0px 4px 4px rgba(228, 226, 226, 0.1);
     border-radius: 10px;
     padding: 10px 20px;
     transition: 0.5s;
+    // Add drop shadow
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .learnMoreButton:hover {

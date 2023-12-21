@@ -13,11 +13,12 @@ export default function about() {
       <Head title="About Us"/>
 
       <Container fluid className={aboutStyles.aboutPageBackground}>
+        <div className={aboutStyles.aboutPageBackgroundOverlay}></div>
         <h1 className={aboutStyles.aboutUsTitle}>About Us</h1>
       </Container>
 
       <Container fluid className={aboutStyles.centerContainer}>
-        <h2 className={aboutStyles.mediumText}>Who Is AACF?</h2>
+        <h2 className={aboutStyles.mediumText}>What Is AACF?</h2>
         <p className={aboutStyles.paragraphText}>
           Welcome to Asian American Christian Fellowship (AACF), a campus ministry under JEMS, a non-profit missions organization.
         </p>
@@ -38,7 +39,7 @@ export default function about() {
         <br/>
         <h2 className={aboutStyles.mediumText}>Vision Statement</h2>
         <p className={aboutStyles.paragraphText}>
-          We are committed to making disciples by educating and equipping students in biblical foundations, Christian disciplines, and the development of spiritual gifts in order to prepare them for witness and service on the campus, in the local church, in the marketplace, and in world missions.
+          We are committed to <strong> making disciples by educating and equipping students in biblical foundations</strong>, Christian disciplines, and the development of spiritual gifts in order to prepare them for witness and service on the campus, in the local church, in the marketplace, and in world missions.
         </p>
         <p className={aboutStyles.paragraphText}>
           College students who come through the ministry of AACF are educated and equipped for witness and service to wherever God leads them. Our aim is to give them knowledge and experience to be salt and light (Matthew 5:13-16) to the communities where God has placed them and beyond. We do this by giving students opportunities to lead and serve. We deeply value student leadership and their initiative to creatively contextualize ministry on their campus. We give them a framework for campus ministry and they are encouraged to make it their own.
@@ -59,9 +60,8 @@ export default function about() {
           Since its birth on the UW campus in 1975, AACF UW has invested in the lives of over 1500 students, growing Christ followers and developing more than 240 student leaders passionate about loving God and loving others. Our alumni continue to be leaders making an impact for God on the campus as volunteer or paid campus ministers, in the local church as pastors or ministry leaders, in the work place as managers, teachers, health care professionals, etc., and in the world as career missionaries.
         </p>
         <br/>
-        {/* Unsure why the button is blue? */}
         <a href="https://www.aacf.org/aacf-story/" target="_blank" rel="noopener noreferrer">
-          <Button className='learnMoreButton'>Read More About Our Story</Button>
+          <Button variant="secondary" className='learnMoreButton'>Read More About Our Story</Button>
         </a>
         <br/>
       </Container>
