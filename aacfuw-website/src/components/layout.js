@@ -8,10 +8,10 @@ import * as layoutStyles from './layout.module.scss';
 
 function Layout(props) {
   return (
-    <div className={layoutStyles.container}>
-      <div className={layoutStyles.stickyFooter}>
+    <div className={layoutStyles.layoutContainer}>
+      <div className={layoutStyles.contentContainer}>
         <Header />
-        {props.children}
+        <div className={layoutStyles.content}>{props.children}</div>
       </div>
       <Footer />
     </div>

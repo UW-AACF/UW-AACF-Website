@@ -88,3 +88,33 @@ body {
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+    .bigText {
+      font-size: 60px; /* Adjust font size for smaller screens */
+    }
+  
+    .smallText {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  
+    .learnMoreButton {
+        scale: 0.75; /* Adjust the scaling for smaller screens */
+        width: 40%; /* Make the button full width on smaller screens */
+        font-size: 12px;
+    }
+
+    .centerContainer {
+        top: 50%; /* Adjust the vertical position on smaller screens */
+    }
+    
+      .backgroundContainer {
+        top: 50%;
+        margin-bottom: 200px;
+      }
+      
+    .backgroundImage {
+        scale: 0.6; /* Adjust the scaling for smaller screens */
+        top: 10px; /* Adjust the top position for smaller screens */
+    }
+  }
