@@ -26,15 +26,6 @@ body {
     font-family: 'Kaushan Script';
 }
 
-.aboutUsTitle {
-    font-size: 90px;
-    height: max-content;
-    background-color: rgb(42, 42, 42, 0.6);
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    font-family: 'Kaushan Script';
-}
-
 .mediumText {
     font-size: 60px;
     // change font color to white
@@ -48,29 +39,6 @@ body {
     line-height: 0.1;
     color: rgb(255, 255, 255);
     font-family: 'Have Heart One';
-}
-
-.paragraphText {
-    font-size: 20px;
-    line-height: 1.25;
-    max-width: 800px;
-    text-overflow: 'ellipses';
-    color: rgb(255, 255, 255);
-    font-family: 'Have Heart One'
-}
-
-.aboutPageBackground {
-    background-image: url("../images/retreat-22-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
 
 .learnMoreButton {
