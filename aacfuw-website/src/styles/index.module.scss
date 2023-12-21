@@ -7,32 +7,32 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+  }
+  
+.backgroundContainer {
+    position: relative;
+}
+
+.backgroundImage {
+    scale: 0.8;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    position: relative;
+    top: -120px; /* Move up */
+    left: 65px;
 }
 
 .centerContainer {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    // background-image: url('../images/logo_transparent.png');
-    // // Make the image a little more transparent
-    // opacity: 0.7;
-    // height: 110vh;
-    // background-position: center;
-    // margin-right: 50px;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-}
-
-.backgroundImage {
-    opacity: 0.7;
-    height: 110vh;
-    background-position: center;
-    margin-right: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .bigText {
@@ -59,6 +59,7 @@ body {
 
 .learnMoreButton {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: black;
     width: 150px;
     background-color: #D9D9D9;
