@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerContainer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    max-width: 800px;
+    color: rgb(255, 255, 255);
+}
+
+.aboutUsTitle {
+    font-family: 'Kaushan Script';
+    font-size: 90px;
+    height: max-content;
+    background-color: rgb(42, 42, 42, 0.6);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.aboutPageBackground {
+    background-image: url("../images/retreat-22-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.readMoreButton {
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    background-color: #D9D9D9;
+    // box-shadow: 0px 4px 4px rgba(228, 226, 226, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.readMoreButton:hover {
+    transform: scale(1.01);
+    opacity: 0.7;
+}
