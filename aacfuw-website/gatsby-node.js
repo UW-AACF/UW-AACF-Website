@@ -17,7 +17,6 @@ module.exports.onCreateNode = ({ node, actions }) => {
         })
     }
 }
-/*
 
 module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
@@ -58,7 +57,6 @@ module.exports.createPages = async ({ graphql, actions }) => {
     })
 }
 
-*/
 
     async function run() {
         const uri = process.env.AACF_MONGODB_URI;
