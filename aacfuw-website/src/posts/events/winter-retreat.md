@@ -5,8 +5,8 @@ description: "Winter retreat is held during the first weekend of Winter quarter 
 who: "Everyone is welcome to join!"
 location: "More info coming soon due to COVID-19"
 date: "More info coming soon due to COVID-19"
-gif: "../../images/events/retreat.gif"
-img: "../../images/events/retreat.jpg"
+gif: ""
+img: "../../images/connect/mensg.png"
 link: ""
 button: "SIGN UP"
 ---

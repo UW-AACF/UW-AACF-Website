@@ -5,14 +5,14 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 import Head from '../components/head'
-// import Img from 'gatsby-image'
+import {GatsbyImage, getImage} from 'gatsby-plugin-image'
 
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
-// import Button from 'react-bootstrap/Button'
-// import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
-// import Tooltip from 'react-bootstrap/Tooltip'
+import Button from 'react-bootstrap/Button'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+import Tooltip from 'react-bootstrap/Tooltip'
 
 // import Hero from '../components/hero'
 
@@ -30,6 +30,12 @@ export const query = graphql`
                 date
                 title
                 link
+                button
+                img {
+                  childImageSharp {
+                    gatsbyImageData
+                  }
+                }
             }
             html
             fields {
@@ -43,14 +49,14 @@ const ConnectEvents = (props) => {
     return (
         <Layout>
             <Head title={props.data.markdownRemark.frontmatter.title}/>
-            {/* <Img
-                fluid={props.data.markdownRemark.frontmatter.img.childImageSharp.fluid}
+            <GatsbyImage
+                image={getImage(props.data.markdownRemark.frontmatter.img.childImageSharp)}
                 style={{
                     width:`100%`,
                     maxHeight:`70vh`
 
                 }}
-            /> */}
+            />
             <Container className={[skeletonStyles.info, "text-center"].join(' ')}>
                 <Row>
                     <Col >
@@ -76,7 +82,7 @@ const ConnectEvents = (props) => {
                         <p>{props.data.markdownRemark.frontmatter.date}</p>
                     </Col>
                 </Row>
-                {/* <Row className={["justify-content-center d-flex"].join(' ')}>
+                <Row className={["justify-content-center d-flex"].join(' ')}>
                     <Col xs={12} md={4}>
                     { props.data.markdownRemark.frontmatter.link.trim() === "" ?
                         (<OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Not Ready Yet!</Tooltip>}>
@@ -87,7 +93,7 @@ const ConnectEvents = (props) => {
                         )
                         : (<Button className={skeletonStyles.button} target="_blank" href={props.data.markdownRemark.frontmatter.link} size="lg" block variant="dark">{props.data.markdownRemark.frontmatter.button}</Button>) }
                     </Col>
-                </Row> */}
+                </Row>
             </Container>
         </Layout>
     )

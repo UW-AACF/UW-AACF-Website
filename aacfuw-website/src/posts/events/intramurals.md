@@ -5,7 +5,7 @@ description: "We win."
 location: ""
 date: ""
 gif: ""
-img: ""
+img: "../../images/connect/mensg.png"
 link: ""
 button: "SIGN UP"
 ---

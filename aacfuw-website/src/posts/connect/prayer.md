@@ -5,7 +5,7 @@ description: "POP!"
 who: "Anyone and everyone!"
 location: "By George"
 gif: ""
-img: ""
+img: "../../images/connect/mensg.png"
 link: ""
 button: "LOREN IPSUM"
 ---

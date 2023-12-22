@@ -8,5 +8,5 @@ location: "SMITH 304"
 date: "Every Wednesday @ 7 PM"
 gif: ""
 link: ""
-img: ""
+img: "../../images/connect/mensg.png"
 ---
