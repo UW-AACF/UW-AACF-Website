@@ -48,7 +48,7 @@ ministries:
         people:
             - person:
                 name: "Ainsley Lai"
-                core: "Core"
+                core: ""
                 featuredImage: "../images/ministries/member.jpg"
                 detail: "4th Year, Applied Math"
                 verse: ""
@@ -66,7 +66,7 @@ ministries:
         people:
             - person:
                 name: "Faith Ong"
-                core: "Core"
+                core: ""
                 featuredImage: "../images/ministries/member.jpg"
                 detail: "4th Year, IxD Design"
                 verse: ""
@@ -90,6 +90,24 @@ ministries:
                 core: ""
                 featuredImage: "../images/ministries/member.jpg"
                 detail: "3rd Year, Biochemistry"
+                verse: ""
+                extra: ""
+    - ministry:
+        type: "FRESHMAN SMALL GROUP"
+        responsibility: "We are freshman."
+        people:
+            - person:
+                name: "Daniel Bui"
+                core: ""
+                featuredImage: "../images/ministries/member.jpg"
+                detail: "5th year, Civil Engineering"
+                verse: ""
+                extra: ""
+            - person:
+                name: "Meigan Crowder"
+                core: ""
+                featuredImage: "../images/ministries/member.jpg"
+                detail: "2nd Year, Pre-Dental"
                 verse: ""
                 extra: ""
     - ministry:
