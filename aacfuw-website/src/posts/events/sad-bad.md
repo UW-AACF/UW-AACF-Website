@@ -6,7 +6,7 @@ who: "Everyone is welcome"
 location: ""
 date: ""
 gif: ""
-img: "../../images/connect/mensg.png"
+img: "../../images/cross-about.jpg"
 link: ""
 button: "SIGN UP"
 ---

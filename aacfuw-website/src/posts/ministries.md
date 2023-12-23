@@ -1,7 +1,7 @@
 ---
 category: "Ministries"
 title: "Ministries"
-featuredImage: "../images/cross-about.jpg"
+featuredImage: ""
 ministries:
     - ministry:
         type: "CORE"

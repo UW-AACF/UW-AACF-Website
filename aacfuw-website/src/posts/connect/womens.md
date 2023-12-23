@@ -6,7 +6,7 @@ who: "Women"
 location: ""
 date: "Dates vary throughout the school year"
 gif: ""
-img: "../../images/connect/mensg.png"
+img: "../../images/cross-about.jpg"
 link: ""
 button: "LOREN IPSUM"
 ---

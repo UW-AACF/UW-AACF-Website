@@ -2,7 +2,7 @@
 category: "Churches"
 title: "Churches"
 link: ""
-featuredImage: "../images/churches/churches.png"
+featuredImage: ""
 churches:
     - church:
         name: "Beacon Hill Church"

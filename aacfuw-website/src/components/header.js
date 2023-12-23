@@ -33,7 +33,7 @@ function Header() {
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/about">AACF</NavDropdown.Item>
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/ministries">Ministries</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link className={headerStyles.navLink} as={Link} to="/annoucements">ANNOUNCEMENTS</Nav.Link>
+          <Nav.Link className={headerStyles.navLink} as={Link} to="/announcements">ANNOUNCEMENTS</Nav.Link>
           <NavDropdown className={headerStyles.navLink} title="CONNECT" id="collapsible-nav-dropdown">
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/large-group">Large Group</NavDropdown.Item>
             {/* <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/bible-study">Bible Study</NavDropdown.Item> */}
