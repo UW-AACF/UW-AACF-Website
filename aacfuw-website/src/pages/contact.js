@@ -71,7 +71,7 @@ const ContactPage = () => {
           </Row>
           <Row className={[contactStyles.info, "justify-content-center pt-3"].join(' ')}>
             <Col sm={12} md={10} className={["justify-content-center  d-flex"].join(' ')}>
-              <a href="https://www.instagram.com/aacf.slo/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/uwaacf/" target="_blank" rel="noopener noreferrer">
                 <img src={instagram_logo} fluid="true" alt="instagram" />
                 <p>@uwaacf</p>
               </a>
