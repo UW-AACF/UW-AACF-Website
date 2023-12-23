@@ -64,8 +64,8 @@ const Ministries = () => {
                     <Container>
                         <Row>
                             <Col>
-                                <h1>AACF SLO MINISTRIES</h1>
-                                <p>See below who is serving in AACF SLO!</p>
+                                <h1>AACF LEADERSHIP TEAM</h1>
+                                <p>See below who is serving in AACF UW!</p>
                             </Col>
                         </Row>
                     </Container>

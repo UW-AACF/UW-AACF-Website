@@ -32,18 +32,18 @@ ministries:
                 name: "Esther Hong"
                 core: "Core"
                 featuredImage: "../images/ministries/esther.jpg"
-                detail: "4th Year, Psychology"
+                detail: "4th Year, Psychology & ECFS"
                 verse: ""
                 extra: ""
             - person:
                 name: "Janice Ngai"
                 core: "Core"
                 featuredImage: "../images/ministries/janice.jpg"
-                detail: "4th Year, Biology(?)"
+                detail: "4th Year, Biology"
                 verse: ""
                 extra: ""
     - ministry:
-        type: "MEN'S"
+        type: "MEN'S SMALL GROUP"
         responsibility: "We are men."
         people:
             - person:
@@ -61,7 +61,7 @@ ministries:
                 verse: ""
                 extra: ""
     - ministry:
-        type: "WOMEN'S"
+        type: "WOMEN'S SMALL GROUP"
         responsibility: "We are women."
         people:
             - person:
@@ -89,11 +89,11 @@ ministries:
                 name: "Rachael Hoang"
                 core: ""
                 featuredImage: "../images/ministries/member.jpg"
-                detail: "4th Year, (?)"
+                detail: "3rd Year, Biochemistry"
                 verse: ""
                 extra: ""
     - ministry:
-        type: "RESOURCES/STAFF"
+        type: "STAFF & RESOURCES"
         responsibility: "We are the adults."
         people:
             - person:

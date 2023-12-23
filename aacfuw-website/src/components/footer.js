@@ -65,7 +65,7 @@ function Footer() {
 
         <div className={[footerStyles.footerEnd, "text-center"].join(' ')}>
           <p className="mb-0">Made with God's <span role="img" aria-label="heart">❤️</span> by AACF UW</p>
-          <p className="mb-0">Asian American Christian Fellowship at University of Washington</p>
+          <p className="mb-0">Asian American Christian Fellowship at University of Washington - Seattle</p>
         </div>
       </Container>
     </footer>
