@@ -33,12 +33,14 @@ function Header() {
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/about">AACF</NavDropdown.Item>
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/ministries">Ministries</NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link className={headerStyles.navLink} as={Link} to="/annoucements">ANNOUNCEMENTS</Nav.Link>
           <NavDropdown className={headerStyles.navLink} title="CONNECT" id="collapsible-nav-dropdown">
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/large-group">Large Group</NavDropdown.Item>
             {/* <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/bible-study">Bible Study</NavDropdown.Item> */}
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/prayer">POP! Gatherings</NavDropdown.Item>
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/mens">Men's</NavDropdown.Item>
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/womens">Women's</NavDropdown.Item>
+            <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/fishies">FISHIES</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown className={headerStyles.navLink} title="EVENTS" id="collapsible-nav-dropdown">
             <NavDropdown.Item className={headerStyles.dropdownItem} as={Link} to="/sad-bad">SAD & BAD</NavDropdown.Item>
