@@ -79,9 +79,9 @@ const ContactPage = () => {
                 <img src={facebook_logo} fluid="true" alt="facebook" />
                 <p>/uwaacf</p>
               </a>
-              <a href="https://linktr.ee/uwaacf" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.flowcode.com/page/uwaacf" target="_blank" rel="noopener noreferrer">
                 <img src={link} fluid="true" alt="facebook" />
-                <p>/linktree</p>
+                <p>/flowcode</p>
               </a>
             </Col>
             <Col sm={8} md={10} className="mt-3">
