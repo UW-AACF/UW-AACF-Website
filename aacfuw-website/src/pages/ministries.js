@@ -25,7 +25,6 @@ const Ministries = () => {
                 node {
                   frontmatter {
                     title
-                    featuredImage
                     ministries {
                       ministry {
                         people {

@@ -24,7 +24,11 @@ const ContactPage = () => {
             edges {
                 node {
                     frontmatter {
-                        featuredImage 
+                        featuredImage {
+                          childImageSharp {
+                            gatsbyImageData
+                          }
+                        }
                     }
                 }
             }
@@ -37,7 +41,7 @@ const ContactPage = () => {
       <Head title="Contact" />
       <div class="jumbotron" fluid className={[contactStyles.heading, "text-center"].join(' ')}>
         <GatsbyImage
-          fluid={getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp)}
+          image={getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp)}
           style={{
             position: "fixed",
             left: 0,

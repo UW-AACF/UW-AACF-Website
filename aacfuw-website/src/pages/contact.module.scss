@@ -6,7 +6,7 @@
     min-height: calc(100vh - 102px);;
     align-items: center;
     display: flex; //d-flex goes hand in hand with align-items unless component already is flex
-    color: black;
+    color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,7 +64,7 @@
             font-family: 'Roboto';
             margin-top: 1rem;
             font-size: 1rem;
-            color: black;
+            color: white;
             text-decoration: none;
         }
         // :hover {

@@ -1,4 +1,4 @@
 ---
-featuredImage: "../images/contact.jpg"
+featuredImage: "../images/cross-about.jpg"
 category: "Contact"
 ---

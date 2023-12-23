@@ -34,7 +34,6 @@ const Churches = () => {
               frontmatter {
                 title
                 link
-                featuredImage 
                 churches {
                   church {
                     link
