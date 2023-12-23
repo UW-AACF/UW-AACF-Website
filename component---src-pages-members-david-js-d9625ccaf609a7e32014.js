@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[840],{3866:function(e,l,t){t.r(l),t.d(l,{default:function(){return r}});var a=t(7294);function r(){return a.createElement("div",null,a.createElement("h1",null,"David's page"),a.createElement("h2",null,"This is an example of where we will place all of the member's pages."))}}}]);
+//# sourceMappingURL=component---src-pages-members-david-js-d9625ccaf609a7e32014.js.map
