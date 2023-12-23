@@ -56,7 +56,7 @@ const Churches = () => {
     return (
         <Layout>
             <Head title="Churches" />
-            <div class="jumbotron" fluid className={[churchesStyles.heading, "text-center"].join(' ')}>
+            <div fluid className={[churchesStyles.heading, "text-center"].join(' ')}>
                 <Container>
                     <Row>
                         <Col>

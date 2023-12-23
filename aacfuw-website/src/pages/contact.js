@@ -39,7 +39,7 @@ const ContactPage = () => {
   return (
     <Layout>
       <Head title="Contact" />
-      <div class="jumbotron" fluid className={[contactStyles.heading, "text-center"].join(' ')}>
+      <div fluid className={[contactStyles.heading, "text-center"].join(' ')}>
         <GatsbyImage
           image={getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp)}
           style={{
