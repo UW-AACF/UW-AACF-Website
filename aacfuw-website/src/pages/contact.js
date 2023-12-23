@@ -69,11 +69,11 @@ const ContactPage = () => {
             <Col sm={12} md={10} className={["justify-content-center  d-flex"].join(' ')}>
               <a href="https://www.instagram.com/aacf.slo/" target="_blank" rel="noopener noreferrer">
                 <img src={instagram_logo} fluid="true" alt="instagram" />
-                <p>@aacf.slo</p>
+                <p>@uwaacf</p>
               </a>
               <a href="https://www.facebook.com/groups/uwaacf/" target="_blank" rel="noopener noreferrer">
                 <img src={facebook_logo} fluid="true" alt="facebook" />
-                <p>/aacfslo</p>
+                <p>/uwaacf</p>
               </a>
               <a href="https://linktr.ee/uwaacf" target="_blank" rel="noopener noreferrer">
                 <img src={link} fluid="true" alt="facebook" />
@@ -89,6 +89,7 @@ const ContactPage = () => {
           </Row>
         </Container>
       </div>
+      <br/> {/* For spacing between button and footer */}
     </Layout>
   )
 }

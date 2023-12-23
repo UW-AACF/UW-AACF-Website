@@ -1,0 +1,99 @@
+// $fbblack: '../images/fbblack.png';
+// $igblack: '../images/igblack.png';
+
+.heading {
+    margin-bottom: 0;
+    min-height: calc(100vh - 102px);;
+    align-items: center;
+    display: flex; //d-flex goes hand in hand with align-items unless component already is flex
+    color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: no-repeat fixed center center;
+    h1 {
+        font-family: 'Oswald';
+        font-weight: 700;
+        font-size: 2.5rem;
+        letter-spacing: .2rem;
+        // text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+    h3 {
+        font-family: 'Roboto';
+        font-size: 1.25rem;
+        letter-spacing: 1.6px;
+        // text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+
+    // .facebook {
+    //     display: none;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     z-index: 99;
+    // }
+    // .instagram {
+    //     display: none;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     z-index: 99;
+    // }
+
+    // .facebook:hover {
+    //     display: inline;
+    // }
+    // .instagram:hover {
+    //     display: inline
+    // }
+}
+
+.info {
+    a {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        @media only screen and (min-width: 768px){
+            margin-right: 3rem;
+            margin-left: 3rem;
+        }
+        img {
+            width: 8rem;
+        }
+        p {
+            font-family: 'Roboto';
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: black;
+            text-decoration: none;
+        }
+        // :hover {
+        //     color: #000;
+        // }
+
+    }
+
+}
+
+.button {
+  :hover {
+      background-color: #d2d9eb;
+  }
+    font-family: "Oswald";
+    font-weight:700;
+    letter-spacing: 5px;
+    font-size: 1rem;
+}
+
+.background::after {
+    content: "";
+    display: block;
+    position: fixed;
+    padding: 100px 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    // z-index: 1;
+}
