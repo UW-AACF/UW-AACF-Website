@@ -2,94 +2,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-:root {
-    --navbar-height: 50px; // Default height, replace with your default height
-  }
+// :root {
+//     --navbar-height: 50px; // Default height, replace with your default height
+//   }
 
-.navbar {
-    height: var(--navbar-height);
-    // other navbar styles
-}
+// .navbar {
+//     height: var(--navbar-height);
+//     // other navbar styles
+// }
 
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+// body {
+//     margin: 0;
+//     padding: 0;
+//     height: 100vh;
 
-}
+// }
 
-.centerContainer {
-    text-align: left;
-    justify-content: center;
-    align-items: left;
-    padding-left: 100px;
+// .centerContainer {
+//     text-align: left;
+//     justify-content: center;
+//     align-items: left;
+//     padding-left: 100px;
+//     display: flex;
+//     flex-direction: column;
+//     height: 100vh;
+// }
+
+// .mediumText {
+//     font-family: 'Monsterrat', sans-serif;
+//     text-align: left;
+//     font-weight: 700;
+//     font-size: 3.5rem;
+//     letter-spacing: .2rem;
+//     // color: rgb(223, 223, 223);
+// }
+
+// .paragraphText {
+//     font-family: 'Montserrat', sans-serif;
+//     font-size: 1rem;
+//     letter-spacing: 1px;
+//     line-height: 1.25;
+//     max-width: 800px;
+//     // color: rgb(223, 223, 223);
+// }
+
+// .aboutUsTitle {
+//     font-family: 'Kaushan Script';
+//     font-size: 90px;
+//     height: max-content;
+//     // background-color: rgb(42, 42, 42, 0.6);
+//     color: rgb(223, 223, 223);
+//     border-radius: 10px;
+//     z-index: 2;
+// }
+
+// .aboutPageBackground {
+//     background-image: url("../images/retreat-22-background.jpg");
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     text-align: center;
+//     justify-content: center;
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     height: calc(100vh - var(--navbar-height));
+// }
+
+// .aboutPageBackgroundOverlay {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100vh;
+//     background-color: rgba(0, 0, 0, 0.5);
+//     z-index: 1;
+// }
+
+// .readMoreButton {
+//     font-family: 'Montserrat', sans-serif;
+//     width: 150px;
+//     background-color: #D9D9D9;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+//     border-radius: 10px;
+//     padding: 10px 20px;
+//     transition: 0.5s;
+// }
+
+// .readMoreButton:hover {
+//     transform: scale(1.01);
+//     opacity: 0.7;
+// }
+
+.container {
+    min-height: 90vh;
     display: flex;
-    flex-direction: column;
-    height: 100vh;
+    align-items: center;
+    // text-align:left;
+    background-color: transparent;
+    color: #333333;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+    margin-bottom: 0;
+    h1 {
+        font-family: 'Oswald';
+        font-size: 4rem;
+        letter-spacing: .2rem;
+    }
+    font-family: 'Montserrat';
+    font-size: 1.25rem;
+    letter-spacing: 1.3px;
+
+   
+
 }
 
-.mediumText {
-    font-family: 'Monsterrat', sans-serif;
-    text-align: left;
-    font-weight: 700;
-    font-size: 3.5rem;
-    letter-spacing: .2rem;
-    // color: rgb(223, 223, 223);
+.theme-words {
+    text-transform: uppercase;
+    font-size: 2rem;
 }
 
-.paragraphText {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    line-height: 1.25;
-    max-width: 800px;
-    // color: rgb(223, 223, 223);
-}
-
-.aboutUsTitle {
-    font-family: 'Kaushan Script';
-    font-size: 90px;
-    height: max-content;
-    // background-color: rgb(42, 42, 42, 0.6);
-    color: rgb(223, 223, 223);
-    border-radius: 10px;
-    z-index: 2;
-}
-
-.aboutPageBackground {
-    background-image: url("../images/retreat-22-background.jpg");
+.aboutPageBackground1 {
+    background-image: url("../images/about/aacf_mission_statement-min.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: calc(100vh - var(--navbar-height));
-}
-
-.aboutPageBackgroundOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-.readMoreButton {
-    font-family: 'Montserrat', sans-serif;
-    width: 150px;
-    background-color: #D9D9D9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    padding: 10px 20px;
-    transition: 0.5s;
-}
-
-.readMoreButton:hover {
-    transform: scale(1.01);
-    opacity: 0.7;
+    min-height: 100vh;
 }

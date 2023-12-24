@@ -6,7 +6,7 @@ who: "Everyone is welcome to join!"
 location: "More info coming soon due to COVID-19"
 date: "More info coming soon due to COVID-19"
 gif: ""
-img: "../../images/cross-about.jpg"
+img: "../../images/retreat.jpg"
 link: ""
 button: "SIGN UP"
 ---

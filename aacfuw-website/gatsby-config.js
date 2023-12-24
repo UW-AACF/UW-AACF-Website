@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix:`/UW-AACF-Website`,
+  // pathPrefix:`/UW-AACF-Website`,
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
@@ -48,7 +48,9 @@ module.exports = {
            `Roboto`,
            `Lato`,
            `Oswald\:200,300,400,400i,500,600,700`,
-           'Montserrat'
+           `Montserrat`,
+           `Staatliches`,
+           `Lato`
         ],
         display: 'swap'
       }

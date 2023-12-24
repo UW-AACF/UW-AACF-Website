@@ -6,7 +6,7 @@ who: "All AACF students!"
 location: ""
 date: ""
 gif: ""
-img: "../../images/cross-about.jpg"
+img: "../../images/united.jpg"
 link: ""
 button: "SIGN UP"
 ---

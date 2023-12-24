@@ -6,7 +6,7 @@ who: "The underclassmen celebrating the graduating senior class!"
 location: ""
 date: ""
 gif: ""
-img: "../../images/cross-about.jpg"
+img: "../../images/sso.jpg"
 link: ""
 button: "SIGN UP"
 ---
