@@ -24,7 +24,7 @@ import cross from '../images/cross-about.jpg'
 
 import * as churchesStyles from './churches.module.scss'
 
-const Churches = () => {
+function Churches() {
     const data = useStaticQuery(graphql`
     query
     {

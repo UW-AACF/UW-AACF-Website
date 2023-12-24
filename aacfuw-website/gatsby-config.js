@@ -48,7 +48,9 @@ module.exports = {
            `Roboto`,
            `Lato`,
            `Oswald\:200,300,400,400i,500,600,700`,
-           'Montserrat'
+           `Montserrat`,
+           `Staatliches`,
+           `Lato`
         ],
         display: 'swap'
       }
