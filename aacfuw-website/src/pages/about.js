@@ -75,12 +75,12 @@ const BackgroundSection = ({ className }) => (
         // <React.Fragment>
         <Layout>
           <Head title="About" />
-          < StaticImage
+          {/* < StaticImage
             Tag="section"
             className={className}
             image={imageData1}
             backgroundColor={`#040e18`}
-          />
+          /> */}
           <div className={[aboutStyles.container, ""].join(' ')}>
             <Container>
               <Row className="">
@@ -120,12 +120,12 @@ const BackgroundSection = ({ className }) => (
             </Container>
           </div>
 
-          <GatsbyImage
+          {/* <GatsbyImage
             Tag="section"
             className={className}
             image={imageData2}
             backgroundColor={`#040e18`}
-          />
+          /> */}
           <div fluid className={[aboutStyles.container, "text-center"].join(' ')}>
 
             <Container>
@@ -174,12 +174,12 @@ const BackgroundSection = ({ className }) => (
             </Container>
           </div> */}
 
-          <GatsbyImage
+          {/* <GatsbyImage
             Tag="section"
             className={className}
             fluid={imageData4}
             backgroundColor={`#040e18`}
-          />
+          /> */}
           <div fluid className={[aboutStyles.container].join(' ')} >
             <Container>
               <Row>
