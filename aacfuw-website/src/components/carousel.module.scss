@@ -1,0 +1,59 @@
+// BELOW IS FOR A STICKY TOP SCROLL OF IMAGES NOT IMPLEMENTED BUT SHOULD WORK WITH DIVS WITH CLASS CUBBY
+
+// $img1: url('../images/retreat-22-background.jpg');
+// $img2: url('../images/carousel/2020aacfRetreat.jpg');
+
+/*
+    This styles file is completely unused at the moment... Unsure if it has uses or if
+    it will be needed in the future, so keeping the file here for now. -mm
+*/
+
+// .cubby {
+//     position: relative;
+//     width: 100%;
+
+//     .section {
+//         position: sticky;
+//         top: 0;
+//         width: 100%;
+//         height: 100vh;
+//         background: #000000;
+//     }
+//     .section:nth-child(1) {
+//         background-image: $img1;
+//         // background: no-repeat center center fixed;
+//         background-size: cover;
+//     }
+//     .section:nth-child(2) {
+//         background-image: $img2;
+//         background-size: cover;
+//     }
+//     .section:nth-child(3) {
+//         background-image: $img1;
+//         background-size: cover;
+//     }
+//     .section:nth-child(4) {
+//         background-image: $img2;
+//         background-size: cover;
+//     }
+//     .section:nth-child(5) {
+//         background-image: $img1;
+//         background-size: cover;
+//     }
+//     .section:nth-child(6) {
+//         background-image: $img2;
+//         background-size: cover;
+//     }
+    
+// }
+
+// .resize {
+//     height: calc(100vh - 102px);
+//     background: no-repeat center center fixed;
+//     // background-image: $img1;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+//     transform: translateZ(1px) scale(1.1); // scale adjusts the zoom
+// }
