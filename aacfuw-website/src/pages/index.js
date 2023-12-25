@@ -22,13 +22,13 @@ function Index() {
         </Container>
       </div>
       <div className={styles.backgroundCarousel}>
-        <Carousel/>
+        <Carousel />
       </div>
-      <div className={styles.carouselOverlay}/>
-      <Container>
-        <h1>Hooray this works</h1>  {/* Just to show that we can put stuff after the carousel :) -mm */}
-      </Container>   
-      
+      <div className={styles.carouselOverlay} />
+      {/* <Container>
+        <h1>Hooray this works</h1>  Just to show that we can put stuff after the carousel :) -mm
+      </Container>    */}
+
 
       {/* There is no backgroundContainer style yet */}
       {/* <Container fluid className={styles.backgroundContainer}>

@@ -8,7 +8,7 @@ import Head from '../components/head'
 
 
 // import BackgroundImage from 'gatsby-background-image'
-import { GatsbyImage, StaticImage, getImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 // import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'

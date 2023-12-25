@@ -55,9 +55,9 @@ function Footer() {
                 <a href="https://www.instagram.com/uwaacf/" target="_blank" rel="noopener noreferrer">
                   <img src={instagram_logo} fluid="true" alt="instagram" />
                 </a>
-                {/* <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <img src={spotify_logo} fluid="true" alt="spotify" />
-                </a> */}
+                </a>
               </Col>
             </Row>
           </Col>

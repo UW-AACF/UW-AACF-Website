@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Kaushan+Script&display=swap');
 
+:root {
+    --navbar-height: 50px; // Default height, replace with your default height
+  }
+
+.navbar {
+    height: var(--navbar-height);
+    // other navbar styles
+}
 
 body {
     margin: 0;
@@ -30,7 +38,7 @@ body {
 
 .backgroundCarousel {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - var(--navbar-height));
 }
 
 .carouselOverlay {
