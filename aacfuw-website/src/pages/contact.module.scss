@@ -3,7 +3,7 @@
 
 .heading {
     margin-bottom: 0;
-    min-height: calc(100vh - 102px);;
+    min-height: calc(100vh - var(--navbar-height));;
     align-items: center;
     display: flex; //d-flex goes hand in hand with align-items unless component already is flex
     color: white;

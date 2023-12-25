@@ -5,7 +5,7 @@ description: "We win."
 location: ""
 date: ""
 gif: ""
-img: "../../images/cross-about.jpg"
+img: "../../images/intramural1.jpg"
 link: ""
 button: "SIGN UP"
 ---

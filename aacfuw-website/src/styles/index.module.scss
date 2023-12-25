@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Kaushan+Script&display=swap');
 
+:root {
+    --navbar-height: 50px; // Default height, replace with your default height
+  }
+
+.navbar {
+    height: var(--navbar-height);
+    // other navbar styles
+}
 
 body {
     margin: 0;
@@ -35,23 +43,64 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     z-index: 2;
+=======
+    height: 90vh; // Formerly 100vh; Changed to 90 to raise the "We Are AACF" text higher on the screen
+    position: absolute;
+    z-index: 30; // Default z index is 10. 30 puts this in front of the default and overlay
+    // background-image: url('../images/logo_transparent.png');
+    // // Make the image a little more transparent
+    // opacity: 0.7;
+    // height: 110vh;
+    // background-position: center;
+    // margin-right: 50px;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+}
+
+.backgroundCarousel {
+    position: relative;
+    height: calc(100vh - var(--navbar-height));
+}
+
+.carouselOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+
+.backgroundImage {
+    opacity: 0.7;
+    height: 110vh;
+    background-position: center;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> 964bc19ba8f3cabaf0be9f9e152bd986c79b5e9c
 }
 
 .bigText {
     font-size: 100px;
     // change font color to white
-    // color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-family: 'Kaushan Script';
+<<<<<<< HEAD
     opacity: 0;
     animation: fadeIn 6.5s forwards;
+=======
+>>>>>>> 964bc19ba8f3cabaf0be9f9e152bd986c79b5e9c
 }
 
 .smallText {
     font-size: 30px;
     // change font color to white
     line-height: 0.1;
-    // color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-family: 'Have Heart One';
     opacity: 0;
     animation: fadeIn 1s forwards;

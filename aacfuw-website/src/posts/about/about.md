@@ -1,0 +1,15 @@
+---
+category: "about"
+theme: "Walking in the Light"
+verse: "This is the message we have heard from him and proclaim to you, that God is light, and in him is no darkness at all. If we say we have fellowship with him while we walk in darkness, we lie and do not practice the truth. But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus his Son cleanses us from all sin. 1 John 1:5-7 (ESV)"
+fall: "Turn to the LightTurn to the LightTurn to the LightTurn to the Light"
+winter: "Abide in the LightAbide in the LightAbide in the LightAbide in the Light"
+spring: "Shine the LightShine the LightShine the LightShine the Light"
+fallWords: "Turn to the Light"
+winterWords: "Abide in the Light"
+springWords: "Shine the Light"
+featuredImage1: "../../images/about/aacf_mission_statement-min.jpg"
+featuredImage2: "../../images/about/bible-min.jpg"
+featuredImage3: "../../images/about/bible-woods-min.jpg"
+featuredImage4: "../../images/about/statement_of_faith-min.jpg"
+---
