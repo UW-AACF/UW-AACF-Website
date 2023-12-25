@@ -43,9 +43,6 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-    z-index: 2;
-=======
     height: 90vh; // Formerly 100vh; Changed to 90 to raise the "We Are AACF" text higher on the screen
     position: absolute;
     z-index: 30; // Default z index is 10. 30 puts this in front of the default and overlay
@@ -81,7 +78,6 @@ body {
     margin-right: 50px;
     background-repeat: no-repeat;
     background-size: cover;
->>>>>>> 964bc19ba8f3cabaf0be9f9e152bd986c79b5e9c
 }
 
 .bigText {
@@ -89,11 +85,6 @@ body {
     // change font color to white
     color: rgb(255, 255, 255);
     font-family: 'Kaushan Script';
-<<<<<<< HEAD
-    opacity: 0;
-    animation: fadeIn 6.5s forwards;
-=======
->>>>>>> 964bc19ba8f3cabaf0be9f9e152bd986c79b5e9c
 }
 
 .smallText {

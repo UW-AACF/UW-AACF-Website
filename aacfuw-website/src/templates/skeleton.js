@@ -33,7 +33,7 @@ export const query = graphql`
                 button
                 img {
                   childImageSharp {
-                    gatsbyImageData
+                    gatsbyImageData(quality:100)
                   }
                 }
             }
