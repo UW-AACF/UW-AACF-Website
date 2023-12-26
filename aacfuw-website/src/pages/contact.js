@@ -37,6 +37,7 @@ const ContactPage = () => {
 
     `)
   return (
+    console.log('@@', getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp)),
     <Layout>
       <Head title="Contact" />
       <div fluid className={[contactStyles.heading, "text-center"].join(' ')}>

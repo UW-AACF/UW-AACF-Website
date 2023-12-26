@@ -40,7 +40,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
         }
     `)
 
-    console.log(res)
+    // console.log(res)
 
     res.data.allMarkdownRemark.edges.forEach((edge) => {
         // console.log(edge.node)
