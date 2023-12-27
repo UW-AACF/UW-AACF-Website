@@ -81,44 +81,58 @@ const BackgroundSection = ({ className }) => (
             image={imageData1}
             backgroundColor={`#040e18`}
           /> */}
-          <div className={[aboutStyles.container, ""].join(' ')}>
-            <Container>
-              <Row className="">
-                <Col>
-                  <h1>What is AACF?</h1>
-                </Col>
-              </Row>
-              <Row className="">
-                <Col sm={12} md={8}>
-                  <p>Welcome to Asian American Christian Fellowship (AACF), a campus ministry under JEMS, a non-profit missions organization. <br></br><br></br> We are a Christian Fellowship at University of Washington - Seattle Campus. AACF has other fellowships in the other colleges within the country! Please continue reading to learn more about who we are and why we are.</p>
-                </Col>
-              </Row>
-            </Container>
+          <div className={[aboutStyles.container, "mb-5"].join(' ')}>
+            <div className={aboutStyles.grayBackground}>
+              <Container>
+                <Row className="mt-3">
+                  <Col>
+                    <h1>ABOUT US</h1>
+                  </Col>
+                </Row>
+                <Row className="">
+                  <Col sm={12} md={8}>
+                    <p>Welcome to Asian American Christian Fellowship (AACF), a campus ministry under JEMS, a non-profit missions organization. <br></br><br></br> We are a Christian Fellowship at University of Washington - Seattle Campus. AACF has other fellowships in the other colleges within the country! Please continue reading to learn more about who we are and why we are.</p>
+                  </Col>
+                </Row>
+              </Container>
+            </div>
           </div>
-          <div className={[aboutStyles.container, "text-center"].join(' ')}>
+          <div className={[aboutStyles.container, "d-flex flex-column justify-content-center"].join(' ')}>
             <Container>
-              <Row className="">
-                <Col>
-                  <h1>Our Mission</h1>
+              <Row className={[aboutStyles.headerText ,"justify-content-center"].join(' ')}>
+                <Col sm={12} md={8}>
+                  <h6>OUR MISSION</h6>
                 </Col>
               </Row>
-              <Row className="justify-content-center">
+              <Row className="justify-content-center mb-5">
                 <Col sm={12} md={8}>
                   <p>The mission of Asian American Christian Fellowship (AACF) is to reach into the university and collegiate community, primarily to those who are Asian Pacific Americans, with the life-changing message of Jesus Christ.</p>
                 </Col>
               </Row>
-              <Row className="justify-content-center">
-                <Col>
-                  <h1>Vision Statement</h1>
+              <Row className={[aboutStyles.headerText ,"justify-content-center"].join(' ')}>
+                <Col sm={12} md={8}>
+                  <h6>VISION STATEMENT</h6>
                 </Col>
               </Row>
               <Row className="justify-content-center">
-                <Col sm={12} md={8}>
+                <Col sm={12} md={8} className="text-left">
                   <p>We are committed to <strong> making disciples by educating and equipping students in biblical foundations</strong>, Christian disciplines, and the development of spiritual gifts in order to prepare them for witness and service on the campus, in the local church, in the marketplace, and in world missions.</p>
                 </Col>
               </Row>
+              <Row className={[aboutStyles.headerText ,"justify-content-center"].join(' ')}>
+                <Col sm={12} md={8}>
+                  <h6>JEMS</h6>
+                </Col>
+              </Row>
+              <Row className="justify-content-center">
+                <Col sm={12} md={8} className="text-left">
+                  <p>The ministry of AACF, Asian American Christian Fellowship, began with a group of college students who had attended the JEMS Mount Hermon summer conference. They wanted the summer fellowship to continue beyond the conference. And in 1972 that desire crystallized at CSU Los Angeles where the first bible study was held. A handful of college students gathered on campus for a bible study. More bible studies popped up all over the west coast of the U.S.. Groups started up at UCLA, UC Berkeley, UW Seattle, CSULB, SJSU, and Stanford. And in 1977 these bible studies became known as Asian American Christian Fellowship. At that time, the AACF leadership realized that there was a void for college-aged Asian American. So began the mission, to reach college campuses with the life-changing message of Jesus Christ and to raise up the next generation of Christian leaders. In 2020 we have 20 AACF chapters that includes nearly 700 students who are, in turn, reaching thousands of college students and faculty.</p>
+                </Col>
+              </Row>
             </Container>
+            <Button variant="secondary" className={aboutStyles.jemsButton}>Learn More</Button>
           </div>
+          
 
           {/* <GatsbyImage
             Tag="section"

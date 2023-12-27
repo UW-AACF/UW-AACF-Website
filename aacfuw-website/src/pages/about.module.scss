@@ -94,27 +94,68 @@
 //     opacity: 0.7;
 // }
 
+.aboutUsHeader { // New class for "ABOUT US" header
+    font-size: 100px; // Change this to the font size you want
+}
+
 .container {
     min-height: 90vh;
     display: flex;
     align-items: center;
-    // text-align:left;
     background-color: transparent;
     color: #333333;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 
-    margin-bottom: 0;
+    margin-bottom: 5;
     h1 {
-        font-family: 'Oswald';
-        font-size: 4rem;
+        font-family: 'Helvetica', bold;
+        font-size: 60px;
+        font-weight: 700;
         letter-spacing: .2rem;
     }
-    font-family: 'Montserrat';
-    font-size: 1.25rem;
+    h6 {
+        font-family: 'Helvetica', bold;
+        font-size: 45px;
+        font-weight: 700;
+        letter-spacing: .2rem;
+        text-align: left;
+    }
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
     letter-spacing: 1.3px;
+}
 
-   
+.grayBackground {
+    background-color: #D9D9D9D9;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex; /* Add this line */
+    align-items: center; /* Add this line */
+    justify-content: start; /* Add this line */
+    padding: 20px;
+}
 
+.headerText {
+    padding-top: 15vh;
+}
+
+.jemsButton {
+    margin-top: 20px;
+    // Move button to the left
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    width: 150px;
+    background-color: #1F419B;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    // Add drop shadow
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.jemsButton:hover {
+    transform: scale(1.01);
+    opacity: 0.7;
 }
 
 .theme-words {
