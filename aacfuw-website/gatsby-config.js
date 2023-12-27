@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  // pathPrefix:`/UW-AACF-Website`,
+  pathPrefix:`/UW-AACF-Website`,
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
