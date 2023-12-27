@@ -37,12 +37,12 @@ const ContactPage = () => {
 
     `)
   return (
-    console.log('@@', getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp)),
+    console.log('@@', getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp.gatsbyImageData)),
     <Layout>
       <Head title="Contact" />
       <div fluid className={[contactStyles.heading, "text-center"].join(' ')}>
         <GatsbyImage
-          image={getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp)}
+          image={getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp.gatsbyImageData)}
           style={{
             position: "fixed",
             left: 0,
