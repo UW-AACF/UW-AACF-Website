@@ -98,7 +98,7 @@ const ContactPage = () => {
           </Row>
         </Container>
       </div>
-      <br/> {/* For spacing between button and footer */}
+      <br /> {/* For spacing between button and footer */}
     </Layout>
   )
 }

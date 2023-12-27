@@ -63,7 +63,7 @@ const BackgroundSection = ({ className }) => (
         }
     `}
 
-    
+
     render={data => {
       // Set ImageData.
       const imageData1 = [getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage1.childImageSharp), `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))`].reverse()
@@ -99,7 +99,7 @@ const BackgroundSection = ({ className }) => (
           </div>
           <div className={[aboutStyles.container, "d-flex flex-column justify-content-center"].join(' ')}>
             <Container>
-              <Row className={[aboutStyles.headerText ,"justify-content-center"].join(' ')}>
+              <Row className={[aboutStyles.headerText, "justify-content-center"].join(' ')}>
                 <Col sm={12} md={8}>
                   <h6>OUR MISSION</h6>
                 </Col>
@@ -109,7 +109,7 @@ const BackgroundSection = ({ className }) => (
                   <p>The mission of Asian American Christian Fellowship (AACF) is to reach into the university and collegiate community, primarily to those who are Asian Pacific Americans, with the life-changing message of Jesus Christ.</p>
                 </Col>
               </Row>
-              <Row className={[aboutStyles.headerText ,"justify-content-center"].join(' ')}>
+              <Row className={[aboutStyles.headerText, "justify-content-center"].join(' ')}>
                 <Col sm={12} md={8}>
                   <h6>VISION STATEMENT</h6>
                 </Col>
@@ -119,7 +119,7 @@ const BackgroundSection = ({ className }) => (
                   <p>We are committed to <strong> making disciples by educating and equipping students in biblical foundations</strong>, Christian disciplines, and the development of spiritual gifts in order to prepare them for witness and service on the campus, in the local church, in the marketplace, and in world missions.</p>
                 </Col>
               </Row>
-              <Row className={[aboutStyles.headerText ,"justify-content-center"].join(' ')}>
+              <Row className={[aboutStyles.headerText, "justify-content-center"].join(' ')}>
                 <Col sm={12} md={8}>
                   <h6>JEMS</h6>
                 </Col>
@@ -132,7 +132,7 @@ const BackgroundSection = ({ className }) => (
             </Container>
             <Button variant="secondary" className={aboutStyles.jemsButton}>Learn More</Button>
           </div>
-          
+
 
           {/* <GatsbyImage
             Tag="section"
@@ -224,9 +224,9 @@ const BackgroundSection = ({ className }) => (
                       alt="aacf logo"
                     />
                   </a> */}
-                <a href="https://www.aacf.org/aacf-story/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="secondary" className='learnMoreButton'>Read More About AACF</Button>
-                </a>
+                  <a href="https://www.aacf.org/aacf-story/" target="_blank" rel="noopener noreferrer">
+                    <Button variant="secondary" className='learnMoreButton'>Read More About AACF</Button>
+                  </a>
                 </Col>
               </Row>
             </Container>

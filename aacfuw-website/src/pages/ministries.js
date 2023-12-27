@@ -56,9 +56,9 @@ const Ministries = () => {
     // this is the blog page that holds blog list
     return (
         <Layout>
-            <Head title="Ministries"/>
+            <Head title="Ministries" />
             <div className="mb-5">
-            {/* style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${cross})`}} */}
+                {/* style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${cross})`}} */}
                 <div fluid className={[ministryStyles.heading, "text-center mb-0"].join(' ')}>
                     <Container>
                         <Row>
@@ -77,7 +77,7 @@ const Ministries = () => {
                                     <Col>
                                         <h2 className="text-center mb-2">{ministry.ministry.type}</h2>
                                         <p className="text-center">{ministry.ministry.responsibility}</p>
-                                        <hr/>
+                                        <hr />
                                     </Col>
                                 </Row>
                                 {/* <Row className="justify-content-center">
@@ -89,35 +89,35 @@ const Ministries = () => {
                                 className="d-flex justify-content-left"
                                  */}
                                 <Row className={"d-flex " + (ministry.ministry.type !== "advisor" ? "justify-content-left" : "justify-content-center")}>
-                                {ministry.ministry.people.map((childOfGod, index) => {
-                                    if (ministry.ministry.type === 'prayer') {
+                                    {ministry.ministry.people.map((childOfGod, index) => {
+                                        if (ministry.ministry.type === 'prayer') {
+                                            return (
+                                                <Col key={index} className="px-5 py-2 d-flex justify-content-center">
+                                                    <h3 className={ministryStyles.prayer}>{ministry.ministry.responsibility}</h3>
+                                                </Col>
+
+                                            );
+                                        }
+
                                         return (
-                                            <Col key={index} className="px-5 py-2 d-flex justify-content-center">
-                                                 <h3 className={ministryStyles.prayer}>{ministry.ministry.responsibility}</h3>
-                                            </Col>
-
-                                        );
-                                    }
-
-                                    return (
-                                        <React.Fragment key={index}>
-                                             {/* TODO: Should use react-key-index instead since safer */}
-                                            <Col md={4} className="px-5 py-2 d-flex justify-content-center">
-                                                <Card style={{ width: '18rem' }} className="border-0">
-                                                    <GatsbyImage image={getImage(childOfGod.person.featuredImage.childImageSharp)} className="card-img-top"/>
-                                                    <Card.Body className={ministryStyles.cardBody}>
-                                                        <Card.Title className={[ministryStyles.name, "mb-0"].join(' ')}>{childOfGod.person.name}</Card.Title>
-                                                        {childOfGod.person.core.trim() !== "" &&
-                                                            ( <Card.Text className={[ministryStyles.core, "text-muted"].join(' ')}>{childOfGod.person.core}</Card.Text>) }
-                                                         <Card.Text className={[ministryStyles.subtitle, ""].join(' ')}>{childOfGod.person.detail}</Card.Text>
-                                                         <Card.Text className={ministryStyles.detail}>{childOfGod.person.verse}</Card.Text>
-                                                         <Card.Text className={ministryStyles.detail}>{childOfGod.person.extra}</Card.Text>
-                                                    </Card.Body>
-                                                </Card>
-                                            </Col>
-                                        </React.Fragment>
-                                    )
-                                })}
+                                            <React.Fragment key={index}>
+                                                {/* TODO: Should use react-key-index instead since safer */}
+                                                <Col md={4} className="px-5 py-2 d-flex justify-content-center">
+                                                    <Card style={{ width: '18rem' }} className="border-0">
+                                                        <GatsbyImage image={getImage(childOfGod.person.featuredImage.childImageSharp)} className="card-img-top" />
+                                                        <Card.Body className={ministryStyles.cardBody}>
+                                                            <Card.Title className={[ministryStyles.name, "mb-0"].join(' ')}>{childOfGod.person.name}</Card.Title>
+                                                            {childOfGod.person.core.trim() !== "" &&
+                                                                (<Card.Text className={[ministryStyles.core, "text-muted"].join(' ')}>{childOfGod.person.core}</Card.Text>)}
+                                                            <Card.Text className={[ministryStyles.subtitle, ""].join(' ')}>{childOfGod.person.detail}</Card.Text>
+                                                            <Card.Text className={ministryStyles.detail}>{childOfGod.person.verse}</Card.Text>
+                                                            <Card.Text className={ministryStyles.detail}>{childOfGod.person.extra}</Card.Text>
+                                                        </Card.Body>
+                                                    </Card>
+                                                </Col>
+                                            </React.Fragment>
+                                        )
+                                    })}
 
                                 </Row>
                             </Container>

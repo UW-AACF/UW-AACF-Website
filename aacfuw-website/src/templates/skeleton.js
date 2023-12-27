@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 import Head from '../components/head'
-import {GatsbyImage, getImage} from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
@@ -48,12 +48,12 @@ export const query = graphql`
 const ConnectEvents = (props) => {
     return (
         <Layout>
-            <Head title={props.data.markdownRemark.frontmatter.title}/>
+            <Head title={props.data.markdownRemark.frontmatter.title} />
             <GatsbyImage
                 image={getImage(props.data.markdownRemark.frontmatter.img.childImageSharp)}
                 style={{
-                    width:`100%`,
-                    maxHeight:`70vh`
+                    width: `100%`,
+                    maxHeight: `70vh`
 
                 }}
             />
@@ -84,14 +84,14 @@ const ConnectEvents = (props) => {
                 </Row>
                 <Row className={["justify-content-center d-flex"].join(' ')}>
                     <Col xs={12} md={4}>
-                    { props.data.markdownRemark.frontmatter.link.trim() === "" ?
-                        (<OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Not Ready Yet!</Tooltip>}>
-                            <span className="d-block">
-                                <Button className={skeletonStyles.button} disabled style={{ pointerEvents: 'none' }} size="lg" block variant="secondary">{props.data.markdownRemark.frontmatter.button}</Button>
-                            </span>
-                        </OverlayTrigger>
-                        )
-                        : (<Button className={skeletonStyles.button} target="_blank" href={props.data.markdownRemark.frontmatter.link} size="lg" block variant="dark">{props.data.markdownRemark.frontmatter.button}</Button>) }
+                        {props.data.markdownRemark.frontmatter.link.trim() === "" ?
+                            (<OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Not Ready Yet!</Tooltip>}>
+                                <span className="d-block">
+                                    <Button className={skeletonStyles.button} disabled style={{ pointerEvents: 'none' }} size="lg" block variant="secondary">{props.data.markdownRemark.frontmatter.button}</Button>
+                                </span>
+                            </OverlayTrigger>
+                            )
+                            : (<Button className={skeletonStyles.button} target="_blank" href={props.data.markdownRemark.frontmatter.link} size="lg" block variant="dark">{props.data.markdownRemark.frontmatter.button}</Button>)}
                     </Col>
                 </Row>
             </Container>
