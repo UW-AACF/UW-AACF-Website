@@ -22,7 +22,7 @@ function Header() {
     >
       <Navbar.Brand className={headerStyles.navbarBrand} >
         <Link to="/">
-          <Image className={["mb-0"].join(' ')} src={logo} />
+          <Image className={[""].join(' ')} src={logo} />
         </Link>
       </Navbar.Brand>
 
