@@ -24,9 +24,13 @@ const ContactPage = () => {
             edges {
                 node {
                     frontmatter {
-                        featuredImage {
-                          childImageSharp {
-                            gatsbyImageData
+                        background {
+                          image {
+                            featuredImage {
+                              childImageSharp {
+                                gatsbyImageData
+                              }
+                            }
                           }
                         }
                     }
@@ -37,12 +41,12 @@ const ContactPage = () => {
 
     `)
   return (
-    console.log('@@', getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp.gatsbyImageData)),
+    // console.log('@@', getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp.gatsbyImageData)),
     <Layout>
       <Head title="Contact" />
       <div fluid className={[contactStyles.heading, "text-center"].join(' ')}>
         <GatsbyImage
-          image={getImage(data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp.gatsbyImageData)}
+          image={getImage(data.allMarkdownRemark.edges[0].node.frontmatter.background[0].image.featuredImage.childImageSharp)}
           style={{
             position: "fixed",
             left: 0,
