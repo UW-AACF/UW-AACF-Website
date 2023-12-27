@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
 import Image from "react-bootstrap/Image"
-import logo from "../images/aacflogo.png"
+import logo from "../images/aacflogotall.jpg"
 
 import * as headerStyles from './header.module.scss'
 import './header-support.scss'
