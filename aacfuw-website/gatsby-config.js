@@ -54,7 +54,20 @@ module.exports = {
         ],
         display: 'swap'
       }
-    }    
+    },
+    // {
+    //   resolve: `gatsby-source-google-calendar`,
+    //   options: {
+    //     calendarIds: [
+    //       'abc...1234@group.calendar.google.com',
+    //     ],
+    //     // options to retrieve the next 10 upcoming events
+    //     timeMin: (new Date()).toISOString(),
+    //     maxResults: 10,
+    //     singleEvents: true,
+    //     orderBy: 'startTime',
+    //   }
+    // },
   ],
   siteMetadata: {
     title: 'AACF UW',
