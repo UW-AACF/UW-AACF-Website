@@ -80,6 +80,30 @@ body {
     background-size: cover;
 }
 
+.card {
+    color: #000;
+    font-family: "Roboto";
+    .card-title {
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 2rem;
+    }
+    .card-text {
+        // font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+}
+
+.cardButton {
+    background-color: transparent;
+    border: none;
+}
+
+.cardButton:hover {
+    background-color: lightgray;
+}
+
 .bigText {
     font-size: 100px;
     // change font color to white
