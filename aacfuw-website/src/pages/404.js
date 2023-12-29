@@ -7,7 +7,6 @@ import Head from '../components/head'
 
 import * as errorStyles from './404.module.scss'
 
-
 const NotFound = () => {
 
     return (
@@ -18,7 +17,6 @@ const NotFound = () => {
                 <h2>404 Error. Page not found.<br />But you found us sleeping.<br />ZZZZZZZZ</h2>
 
                 {/* <img src={sleep} alt="" /> */}
-
             </div>
         </Layout>
     )

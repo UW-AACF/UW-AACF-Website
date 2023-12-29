@@ -52,8 +52,6 @@ const Ministries = () => {
           }
     `)
 
-    // console.log(data)
-    // this is the blog page that holds blog list
     return (
         <Layout>
             <Head title="Ministries" />
@@ -125,35 +123,8 @@ const Ministries = () => {
                     )
                 })}
             </div>
-            {/* <h1>Ministries page</h1>
-            <ol className={blogStyles.posts}>
-                {data.allMarkdownRemark.edges[0].node.frontmatter.ministries.map((m) => {
-                    return (
-                        <li key={m.uid}>
-                            <p>{m.uid}hello</p>
-
-
-                        </li>
-                    )
-                })}
-            </ol> */}
         </Layout>
     )
 }
 // LOOK AT REACT-KEY-INDEX LIB TO FIX KEY ERRORS
 export default Ministries
-
-/* <Link to={`/blog/${edge.node.fields.slug}`}>
-                                <h2>{edge.node.frontmatter.title}</h2>
-                                hi
-                                <p>{edge.node.frontmatter.date}</p>
-                            </Link> */
-/* <h1>{m.ministry.type}</h1>
-{m.ministry.people.map((p) => {
-    return (
-        <div key={p.id}>
-            <p>{p.person.name}</p>
-            <img src={p.person.photo.childImageSharp.fluid.base64}/>
-        </div>
-    )
-})} */

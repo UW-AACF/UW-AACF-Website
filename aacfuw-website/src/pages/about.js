@@ -133,7 +133,6 @@ const BackgroundSection = ({ className }) => (
             <Button variant="secondary" className={aboutStyles.jemsButton}>Learn More</Button>
           </div>
 
-
           {/* <GatsbyImage
             Tag="section"
             className={className}
