@@ -71,9 +71,8 @@ function Index() {
                       <React.Fragment key={index}>
                           {/* TODO: Should use react-key-index instead */}
                           <Col md={4} lg={3} className="px-2 py-2 d-flex justify-content-center">
-                              <Button className={styles.cardButton}>
-                                  <Card href="/about" style={{ width: '14rem' }} className={["border-0", styles.card].join(' ')}>
-                                      {/* <Button href="/about">This is a button</Button> */}
+                              <Button  href={event.event.link} className={styles.cardButton}>
+                                  <Card style={{ width: '14rem' }} className={["border-0", styles.card].join(' ')}>
                                       <GatsbyImage image={getImage(event.event.img)} className="card-img-top"/>
                                       <Card.Body>
                                           <Card.Title className={styles.cardTitle}>{event.event.name}</Card.Title>
