@@ -91,7 +91,7 @@ const BackgroundSection = ({ className }) => (
                 </Row>
                 <Row className="">
                   <Col sm={12} md={8}>
-                    <p>Welcome to Asian American Christian Fellowship (AACF), a campus ministry under JEMS, a non-profit missions organization. <br></br><br></br> We are a Christian Fellowship at University of Washington - Seattle Campus. AACF has other fellowships in the other colleges within the country! Please continue reading to learn more about who we are and why we are.</p>
+                    <p>Welcome to Asian American Christian Fellowship (AACF), a campus ministry under JEMS, a non-profit missions organization. <br></br><br></br> We are a Christian Fellowship at University of Washington - Seattle Campus. AACF also has other chapters in the other colleges within the country! Please continue reading to learn more about our mission, vision, who we are and why we are.</p>
                   </Col>
                 </Row>
               </Container>
