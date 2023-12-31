@@ -5,10 +5,10 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 
 import Head from '../components/head'
-
+import BackgroundImage from 'gatsby-background-image'
 
 // import BackgroundImage from 'gatsby-background-image'
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image'
 
 // import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
@@ -81,22 +81,31 @@ const BackgroundSection = ({ className }) => (
             image={imageData1}
             backgroundColor={`#040e18`}
           /> */}
-          <div className={[aboutStyles.container, "mb-5"].join(' ')}>
-            <div className={aboutStyles.grayBackground}>
-              <Container>
-                <Row className="mt-3">
-                  <Col>
-                    <h1>ABOUT US</h1>
-                  </Col>
-                </Row>
-                <Row className="">
-                  <Col sm={12} md={8}>
-                    <p>Welcome to Asian American Christian Fellowship (AACF), a campus ministry under JEMS, a non-profit missions organization. <br></br><br></br> We are a Christian Fellowship at University of Washington - Seattle Campus. AACF also has other chapters in the other colleges within the country! Please continue reading to learn more about our mission, vision, who we are and why we are.</p>
-                  </Col>
-                </Row>
-              </Container>
+          <BackgroundImage
+            Tag="section"
+            className={className}
+            fluid={imageData1}
+            backgroundColor={`#040e18`}>
+
+            <div className={[aboutStyles.container, "mb-5"].join(' ')}>
+              <div className={aboutStyles.grayBackground}>
+                {/* <GatsbyImage image={getImage(imageData1)} /> */}
+                <Container>
+                  <Row className="mt-3">
+                    <Col>
+                      <h1>ABOUT US</h1>
+                    </Col>
+                  </Row>
+                  <Row className="">
+                    <Col sm={12} md={8}>
+                      <p>Welcome to Asian American Christian Fellowship (AACF), a campus ministry under JEMS, a non-profit missions organization. <br></br><br></br> We are a Christian Fellowship at University of Washington - Seattle Campus. AACF also has other chapters in the other colleges within the country! Please continue reading to learn more about our mission, vision, who we are and why we are.</p>
+                    </Col>
+                  </Row>
+                </Container>
+              </div>
             </div>
-          </div>
+          </BackgroundImage>
+
           <div className={[aboutStyles.container, "d-flex flex-column justify-content-center"].join(' ')}>
             <Container>
               <Row className={[aboutStyles.headerText, "justify-content-center"].join(' ')}>
