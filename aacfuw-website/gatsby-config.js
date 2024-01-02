@@ -55,6 +55,13 @@ module.exports = {
         display: 'swap'
       }
     },
+  //   {
+  //     resolve: `@ccalamos/gatsby-source-googlemaps-static`,
+  //     options: {
+  //         key: `process.env.GATSBY_GOOGLE_MAPS_API_KEY`,
+  //         center: `47.65654840453432, -122.30754961976267`,
+  //     },
+  // },
     // {
     //   resolve: `gatsby-source-google-calendar`,
     //   options: {
