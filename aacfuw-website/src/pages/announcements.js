@@ -8,6 +8,10 @@ import {
   Autocomplete,
   DirectionsRenderer,
 } from "@react-google-maps/api"
+import AACFMarker from '../images/google-maps/aacf_marker.png'
+import SmallGroupMarker from '../images/google-maps/small_group_marker.png'
+import PopMarker from '../images/google-maps/pop_marker.png'
+
 
 import { Box, Flex, HStack, IconButton, Input, ButtonGroup, Text } from '@chakra-ui/react'
 
@@ -110,8 +114,14 @@ function Announcements() {
                             zoom={15} 
                             mapContainerStyle={{width: "100%", height: "100%"}}
                             onLoad={(map) => setMap(map)}>
-                              
-                            <Marker position={center} />
+                            
+                            {/* TODO: MATTHEW, this is an example of how to make a custom marker. For position, make sure to give it a latitude and longitude (See center var) */}
+                            <Marker 
+                              position={center}
+                              animation={window.google.maps.Animation.DROP}
+                              options={{
+                                icon: AACFMarker
+                              }}/>
                             {directionsResponse && <DirectionsRenderer directions={directionsResponse} />}
                             </GoogleMap>
                       </div>
