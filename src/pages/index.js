@@ -51,18 +51,24 @@ function Index() {
       <div>
         <Container fluid className={styles.centerContainer}>
           <h2 className={styles.smallText}>We are</h2>
-          <h1 className={styles.bigText}>AACF</h1>
+          <h1 className={styles.titleText}>AACF</h1>
           <Button href="/about" variant="outline-secondary" className={styles.learnMoreButton}>Learn More</Button>
         </Container>
       </div>
       <div className={styles.backgroundCarousel}>
         <Carousel/>
       </div>
-      <div className={styles.carouselOverlay} />
-
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      
       {/* There is no backgroundContainer style yet */}
       {/* <Container fluid className={styles.backgroundContainer}>
       </Container> */}
+
+      <h1 className={styles.bigText}>Come Join Us This Week!</h1>
+      <br/>
 
       <Container className="mb-5 text-center"> {/* Can be fluid*/}
           <Row className="d-flex justify-content-center">
@@ -86,6 +92,8 @@ function Index() {
               })}
           </Row>
       </Container>
+
+      {/** Add email subscription here */}
 
     </Layout>
   );
